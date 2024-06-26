@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Formm</title>
+  </head>
+  <body>
+    <h1>VACATION FORM FILL UP</h1>
+    <hr >
+    <div>
+      <form action="hello.php">
+        Name :
+        <input type="text" id="0011" placeholder="Your Name" /><br /><br />
+        Phone Number : <input type="text" id="4455" /><br /><br />
+        <label for="vac13">
+          <label>Gender:</label>
+          <input type="radio" name="gender" value="male" id="vac13" />Male
+        </label>
+        <label for="vac13">
+          <input
+            type="radio"
+            name="gender"
+            value="female"
+            id="vac13"
+          />female
+        </label>
+        <label for="vac13">
+          <input
+            type="radio"
+            name="gender"
+            value="Others"
+            id="vac13"
+          />Others
+        </label>
+        <div>
+          <h4>Select the place name :</h4>
+          <select name="vacation" id="vac34">
+            <option value="America">America</option>
+            <option value="America">Australia</option>
+            <option value="America">Europe</option>
+          </select>
+          <h4>Enter what you expect from the place you choose :</h4>
+          <textarea
+            name="vacation"
+            id="vac33"
+            cols="30"
+            rows="10"
+            placeholder="Enter about vacation"
+          ></textarea>
+        </div>
+        <br /><input type="button" value="submit" />
+      </form>
+    </div>
+  </body>
+</html>

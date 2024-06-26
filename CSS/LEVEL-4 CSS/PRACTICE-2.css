@@ -1,0 +1,15 @@
+#div1{
+    height: 400px;
+    width:400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+}

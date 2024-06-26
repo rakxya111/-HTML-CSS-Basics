@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column; 
+    /* Soo flex direction would decide the arrangement of the elements(flex-item) in the flex box it could be :
+    row = (i.e. default) which means arrangement from left to right (main-axis)
+    row-reverse = i.e main-axis : arrangement from right to left
+    column = main-axis : top-bottom
+    column-reverse = main-axis : bottom-up
+
+    NOTE : no matter how much the size of the flex-items it would try to fit inside the flex box until it's content would allow it .
+    */
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+}
+
+#box3{
+    background-color: brown;
+}
+
+#box4{
+    background-color: gray;
+}
+
+#box5{
+    background-color: purple;
+}
+

@@ -1,0 +1,28 @@
+#one{
+    height: 500px;
+    width: 300px;
+    background-color: chartreuse;
+}
+
+#two{
+    height:40vh; /* 40% of the browser height  */
+    width:40vw;/* 40% of the browser width  */
+    background-color: blue;
+    
+}
+
+#one1{
+    margin: 20%; 
+    height: 500px; 
+    width: 300px;
+    background-color: chartreuse; 
+}
+
+#two1{
+    height:10%; /* 10% of the parent[div1] height  */
+    height: 1em; /* relative to the font size of the parent size , 2em : double to the relative of the parent size */
+
+    width: 1rem;/* in case of width relative to its own size, REM:relative to the size of the root means most outer part */
+    background-color: blue;
+    
+}

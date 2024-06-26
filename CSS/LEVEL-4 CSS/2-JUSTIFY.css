@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    
+    /* flex-start/flex-end/space-around/space-between/center/space-evenly 
+    where flex-start :[start from the main axis] , end : [end from the main axis], space-around : [space around the elements in center and left], space-between : [space between the elements], space-evenly: [evenly spaced ] , center : [center from the main axis ] */
+
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+}
+
+#box3{
+    background-color: brown;
+}
+
+#box4{
+    background-color: gray;
+}
+
+#box5{
+    background-color: purple;
+}

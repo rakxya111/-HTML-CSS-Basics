@@ -1,0 +1,38 @@
+#one{
+    background-color:red;
+}
+
+#two{
+    background-color: yellow;
+}
+
+#three{
+    background-color: green;
+    display: inline-block;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px ;
+    padding: 25px;
+    display: inline;
+    color: rgba(255, 0,0,0.5);
+} 
+
+
+#box1{
+background-color: aqua;
+height: 100px;
+width: 100px;
+}
+
+#box2{
+background-color: blueviolet;
+height: 50px;
+width: 30%;
+font-size: 2em;
+width: 5rem;
+}
+
+

@@ -1,0 +1,32 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+#div1{
+    background-color: chartreuse;
+    transition-property: all;
+    transition-duration: 2s;
+    /* transition-delay: 2s; */
+    transition-timing-function: steps(3);  /*  ease in/ease out/and sooon  */
+}
+
+#div2{
+    background-color: blueviolet;
+    transition: all 2s ease-in 1s; 
+    /* SHORTHAND OF TRANSITION :
+     transition property | transition-duration | transition-timing-function | transition-delay */
+
+}
+
+
+div:hover{
+    background-color: aqua;
+    /* when hover the div color would be changed */
+}
+
+div:active{
+    background-color: crimson;
+    /* when clicked by mouse change color */
+}

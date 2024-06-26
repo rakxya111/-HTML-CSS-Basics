@@ -1,0 +1,82 @@
+div{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: blue;
+    position: absolute;
+    top: 500px;
+    left: 300px;
+
+    /* ANIMATION PROPERTY : */
+
+    /* 
+    
+    animation-name : [name of the animation]
+    animation-duration : [duration of the animation]
+    animation-timing-function : [effect of the animation]
+    animation-delay : [delay of the animation]
+    animation-direction : [ way the animated object would move could be (normal,reverse,alternate...)]
+    animation-iteration-count : [ the no of times the animation would run/work]
+   
+    */
+    
+    /* SYNTAX : */
+   
+    /* animation-name: colorAnimate;
+       animation-duration: 2s;
+       animation-timing-function: ease-in;
+       animation-delay: 0s;
+       animation-direction: reverse;
+       animation-iteration-count: infinite; 
+    */
+
+    /* SHORTHAND OF ANIMATION :
+    NAME | DURATION | TIMING-FUNCTION | DELAY | DIRECTION | ITERATION-COUNT 
+    */
+
+    /* animation: helloanimate 2s ease-in 0s infinite normal; */
+
+    animation: animate 2s ease-in 0s infinite normal;
+}
+
+
+/* ANIMATION USING PERCENTAGE [ % ]
+
+We would use percentage in the keyframes instead of [to-from] where 0%[first stage] 50%[middle stage] 100%[last stage]  we can also add 25% / 26% as we wish */
+
+
+@keyframes animate{
+    0%{
+         background-color: aqua; 
+         left: 0px; 
+    }
+
+    50%{
+        background-color: chartreuse;
+        left: 400px;
+    }
+
+    100%{
+        background-color: darkblue;
+        left: 900px;
+    }
+}
+
+@keyframes helloanimate{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 400px;
+    }
+}
+
+@keyframes colorAnimate{
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: burlywood;
+    }
+}
+

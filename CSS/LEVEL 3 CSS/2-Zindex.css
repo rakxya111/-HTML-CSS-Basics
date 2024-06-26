@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#div1{
+    background-color: aqua;
+    position: static;
+
+}
+
+#div2{
+    background-color: blueviolet;
+    position: relative;
+    top: 20px;
+    z-index: 1; /* BEfore doing this the div3 was overlapping the div2 soo the more the z-index that one would overlapp the other, default z-index is alwyz 0 and if we put it too negative [-ve] then it would get overlappedd by other one  */
+}
+
+#div3{
+    background-color: chartreuse;
+    position: fixed;
+    left:150px;
+}
+
+/* SO basically z index means to control which one would overlapp whichh */

@@ -1,0 +1,26 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: darkorchid;
+    position: relative;
+    left: 40%;
+    top:400px;
+    transition: all 2s ease-in;
+    
+}
+
+div:hover{
+    /* Translate is usedd for moving the item from one place to another (x,y,z axis) */
+    
+    transform: translate(300px);
+    /* 
+     transform: translate(300px,400px);
+     transform: translateX(300px); 
+     transform: translateY(300px); 
+     */
+
+     /* SKEW : It is used for strechinggg the item/element could be from(X,Y,Z)axis. */
+     transform: skew(50deg);
+
+}

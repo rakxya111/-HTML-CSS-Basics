@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#div1{
+    background-color: aqua;
+    background-image: url("love.jpg");
+    background-size: cover; /*it would cover the whole box   */
+ }
+
+#div2{
+    background-color: blueviolet;
+    background-image: url("heart.jpg");
+    background-size: contain; /* contain means would fill or repeat the unoccupied space to not fill uncoccupied space use background-repeat:no-repeat  */
+    background-repeat: no-repeat;
+}
+
+#div3{
+    background-color: chartreuse;
+    background-image: url("heart.jpg");
+    background-size: auto;/* Auto means it would be defaultt no pic would be shown clearly  */
+
+}

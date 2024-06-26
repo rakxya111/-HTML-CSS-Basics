@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+
+    /* [align-item] would align the items according to the cross axis, here the whole elements would come to the middle after using align-item: center and also create a space between elements bcuz of using wrap and to solve this we would use the [align-content] it would remove the space in between */
+
+    /* center/flex-start/flex-end and soon are also there */
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+    height: 200px;
+}
+
+#box3{
+    background-color: brown;
+    height: 75px;
+}
+
+#box4{
+    background-color: gray;
+}
+
+#box5{
+    background-color: purple;
+}

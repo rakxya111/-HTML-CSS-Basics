@@ -1,0 +1,30 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+/* Media queries are used for making a responsive website as of today many people may use websites on their phone,tablets and soon so as a web developer we have to make sure the websites looks responsive in any screen of any width & height*/
+
+@media(width:600px){
+    div{
+        background-color: palegreen;
+    }
+
+    /* The above code means that if the width of the screen is 600px then the background color would be changed to palegreen */
+}
+
+@media(min-width:700px){
+    div{
+        background-color: pink;
+    }
+}
+
+
+/* Combined media query using and */
+@media(min-width:800px) and (max-width:900px){
+    div{
+        background-color: chartreuse;
+    }
+}

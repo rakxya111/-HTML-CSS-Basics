@@ -1,0 +1,33 @@
+div{
+    display: inline-block; 
+    /* 👆👆👆 when we use inline then the margin to the top & bottom and the height and the width would not be in use so we would use the inline-block as the solution to the inline */
+
+}
+
+#one{
+    height: 100px;
+    width: 100px;
+    background-color:rgba(255,0,0, 0.5); 
+    /* 👆👆👆 The a in rgba stands for the OPACITY of the color which would range from 0 to 1 , closer to 0 means it would be lighter shade and closer to one means it would be darker shade  */
+    margin: 20px;
+    padding: 20px;
+}
+
+#two{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 20px;
+    padding: 20px;
+     display: none; /*no space reserved */
+     /* visibility:hidden; */
+     /* 👆👆👆 Space would be reserveddd in it ^^ */
+}
+
+#three{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 20px;
+    padding: 20px;
+}
